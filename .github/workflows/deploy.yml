@@ -1,6 +1,7 @@
 name: buildAndDeploy
 on:
   push
+  pull-request
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
