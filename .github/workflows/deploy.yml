@@ -1,13 +1,10 @@
 name: buildAndDeploy
 on:
-# Trigger the workflow on push or pull request,
-# but only for the master branch
-  on:
-    # Trigger the workflow on push or pull request,
-    # but only for the master branch
-    push:
-      branches:
-        - master
+  # Trigger the workflow on push or pull request,
+  # but only for the master branch
+  push:
+    branches:
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
